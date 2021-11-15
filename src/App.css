@@ -1,38 +1,32 @@
 .App {
-  text-align: center;
+	max-width: 860px;
+	margin: 40px auto;
+}
+button {
+	background: none;
+	border: 2px solid #fff;
+	padding: 6px 12px;
+	border-radius: 4px;
+	font-family: 'Patua One', cursive;
+	letter-spacing: 0.1em;
+	font-size: 1em;
+	color: #fff;
+	cursor: pointer;
+}
+/* button:hover {
+	background-color: #b8cad9;
+	color: #403b31;
+} */
+.card-grid {
+	margin: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* @media (hover: hover) {
+	button:hover {
+		background-color: #b8cad9;
+		color: #403b31;
+	}
+} */
